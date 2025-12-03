@@ -1,9 +1,10 @@
-Copy the following into the picture entity card:
+Copy the following into the picture entity card / custom card:
 
 type: picture-entity
-entity: sensor.id_4_5_door_state
+entity: sensor.id_4_5_door_state ## Replace with your sensor
 name: Vehicle Status
-show_state: true
+show_name: false
+show_state: false
 state_image:
   "0": /local/images/car_status/image_0.jpg
   "1": /local/images/car_status/image_1.jpg
@@ -37,3 +38,4 @@ state_image:
   "29": /local/images/car_status/image_29.jpg
   "30": /local/images/car_status/image_30.jpg
   "31": /local/images/car_status/image_31.jpg
+
