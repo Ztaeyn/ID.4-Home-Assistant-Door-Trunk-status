@@ -1,6 +1,8 @@
 # ID.4-Home-Assistant-Door-Trunk-status
 Images copied and modified from Volkswagen app. 
 
+![Vehicle Status Image 15](images/image_15.jpg)
+
 | State Index (Integer) | Binary Representation (LF-RF-LB-RB-T) | Doors/Trunk that are OPEN ('off')                            | Image Filename |
 | --------------------- | ------------------------------------- | ------------------------------------------------------------ | -------------- |
 | 0                     | 0                                     | All Doors/Trunk CLOSED (Default)                             | image_0.jpg    |
