@@ -1,0 +1,39 @@
+Copy the following into the picture entity card:
+
+type: picture-entity
+entity: sensor.id_4_5_door_state
+name: Vehicle Status
+show_state: true
+state_image:
+  "0": /local/images/car_status/image_0.jpg
+  "1": /local/images/car_status/image_1.jpg
+  "2": /local/images/car_status/image_2.jpg
+  "3": /local/images/car_status/image_3.jpg
+  "4": /local/images/car_status/image_4.jpg
+  "5": /local/images/car_status/image_5.jpg
+  "6": /local/images/car_status/image_6.jpg
+  "7": /local/images/car_status/image_7.jpg
+  "8": /local/images/car_status/image_8.jpg
+  "9": /local/images/car_status/image_9.jpg
+  "10": /local/images/car_status/image_10.jpg
+  "11": /local/images/car_status/image_11.jpg
+  "12": /local/images/car_status/image_12.jpg
+  "13": /local/images/car_status/image_13.jpg
+  "14": /local/images/car_status/image_14.jpg
+  "15": /local/images/car_status/image_15.jpg
+  "16": /local/images/car_status/image_16.jpg
+  "17": /local/images/car_status/image_17.jpg
+  "18": /local/images/car_status/image_18.jpg
+  "19": /local/images/car_status/image_19.jpg
+  "20": /local/images/car_status/image_20.jpg
+  "21": /local/images/car_status/image_21.jpg
+  "22": /local/images/car_status/image_22.jpg
+  "23": /local/images/car_status/image_23.jpg
+  "24": /local/images/car_status/image_24.jpg
+  "25": /local/images/car_status/image_25.jpg
+  "26": /local/images/car_status/image_26.jpg
+  "27": /local/images/car_status/image_27.jpg
+  "28": /local/images/car_status/image_28.jpg
+  "29": /local/images/car_status/image_29.jpg
+  "30": /local/images/car_status/image_30.jpg
+  "31": /local/images/car_status/image_31.jpg
