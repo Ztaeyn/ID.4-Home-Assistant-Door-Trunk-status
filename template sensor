@@ -1,0 +1,16 @@
+Create a new template sensor for the car. This one is based on my ID.4 with the binary sensors for the left/right back/front and trunk sensor. I've not bothered including the hood or windows.
+
+  Sensor name: sensor.id_4_5_door_state
+
+{# Assign 16 if Left Front is OPEN ('off'), otherwise 0 #}
+          {% set fl = 16 if is_state('binary_sensor.id4_door_closed_left_front', 'on') else 0 %}
+          {# Assign 8 if Right Front is OPEN ('off'), otherwise 0 #}
+          {% set fr = 8  if is_state('binary_sensor.id4_door_closed_right_front', 'on') else 0 %}
+          {# Assign 4 if Left Back is OPEN ('off'), otherwise 0 #}
+          {% set bl = 4  if is_state('binary_sensor.id4_door_closed_left_back', 'on') else 0 %}
+          {# Assign 2 if Right Back is OPEN ('off'), otherwise 0 #}
+          {% set br = 2  if is_state('binary_sensor.id4_door_closed_right_back', 'on') else 0 %}
+          {# Assign 1 if Trunk is OPEN ('off'), otherwise 0 #}
+          {% set t = 1   if is_state('binary_sensor.id4_trunk_closed', 'on') else 0 %}
+          
+          {{ fl + fr + bl + br + t }}
