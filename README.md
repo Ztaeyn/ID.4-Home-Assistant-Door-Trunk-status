@@ -1,4 +1,9 @@
 # ID.4-Home-Assistant-Door-Trunk-status
+I forgot to close a door, locked the car and went inside. The car notified me it was not in a safe state, the Connect app displayed an open door.
+So for fun with the help of Gemini and some sloppy photo editing I smashed togheter this to display in Home Assistant if the doors are open.
+I of course will use an notification that I have forgotten to close a door..
+Hashtag: Stressed dad.
+
 Images copied and modified from Volkswagen app. 
 
 ![Vehicle Status Image 15](images/image_15.jpg)
